@@ -227,8 +227,6 @@ namespace ariel
     {
         Fraction t(*this);
         numerator += denominator;
-        int res_gcd = this->gcd(numerator, denominator);
-        reduce_F(res_gcd);
         return t;
     }
     Fraction Fraction::operator--(int)
