@@ -31,7 +31,7 @@ namespace ariel
         Fraction operator-(const Fraction &other);
         Fraction operator*(const Fraction &other);
         Fraction operator/(const Fraction &other);
-        friend bool checkOverflow(const Fraction &frac1, const Fraction &frac2, char );
+        friend bool checkOverflow(const Fraction &fraction1, const Fraction &fraction2, char );
         friend float take_3digits(float number);
 
 
